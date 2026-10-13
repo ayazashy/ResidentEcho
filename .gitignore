@@ -1,0 +1,50 @@
+# ==========================================
+# Private / Raw Data (Contains Real PII)
+# ==========================================
+# Raw WhatsApp chat exports (contains real phone numbers & names)
+ChatExport2_2026-10-13/WhatsApp Chat*.txt
+**/WhatsApp Chat*.txt
+
+# Raw Telegram chat exports
+ChatExport_2026-10-13/result.json
+**/result.json
+
+# Private user mapping vaults (maps real names/phones to anonymous IDs)
+**/.user_mapping_vault.json
+**/user_mapping*.json
+**/*vault*.json
+
+# ==========================================
+# Operating System & IDE Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ==========================================
+# Python & Node Runtime
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+node_modules/
+npm-debug.log*
+
+# ==========================================
+# Environment Variables & Keys
+# ==========================================
+.env
+.env.*
+*.env
