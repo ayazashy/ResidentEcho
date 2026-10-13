@@ -42,6 +42,18 @@
     </div>
   </header>
 
+  <nav class="mobile-nav" id="mobile-nav" aria-label="التنقل الرئيسي للجوال">
+    <button class="mobile-nav-btn active" id="btn-view-clusters" data-view="clusters">
+      <i class="fa-solid fa-list-check"></i>
+      <span>المشكلات</span>
+      <span class="mobile-nav-badge" id="mobile-clusters-badge">9</span>
+    </button>
+    <button class="mobile-nav-btn" id="btn-view-detail" data-view="detail">
+      <i class="fa-regular fa-comments"></i>
+      <span>التفاصيل والرسائل</span>
+    </button>
+  </nav>
+
   <div class="layout">
     <aside class="sidebar">
       <div class="sidebar-top">
@@ -63,6 +75,10 @@
     </aside>
 
     <main class="main-panel">
+      <button class="mobile-back-btn" id="mobile-back-btn">
+        <i class="fa-solid fa-arrow-right"></i>
+        <span>العودة إلى قائمة المشكلات</span>
+      </button>
       <div id="cluster-detail"></div>
       <div class="feed-section" id="feed-section">
         <div class="feed-header">

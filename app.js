@@ -13,7 +13,8 @@ const state = {
   streamSearch: '',
   streamSort: 'asc',
   page: 1,
-  pageSize: 40
+  pageSize: 40,
+  mobileView: 'clusters'
 };
 
 const $ = id => document.getElementById(id);
@@ -65,6 +66,22 @@ function showToast(msg) {
   setTimeout(() => $('toast-notify').classList.add('hidden'), 2400);
 }
 
+function setMobileView(view) {
+  state.mobileView = view;
+  document.body.dataset.mobileView = view;
+
+  const btnClusters = $('btn-view-clusters');
+  const btnDetail   = $('btn-view-detail');
+  if (btnClusters && btnDetail) {
+    btnClusters.classList.toggle('active', view === 'clusters');
+    btnDetail.classList.toggle('active', view === 'detail');
+  }
+
+  if (view === 'detail') {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+}
+
 // ── Boot ─────────────────────────────────────────────────────
 
 async function initApp() {
@@ -77,7 +94,12 @@ async function initApp() {
     $('metric-total-clusters').textContent = state.data.clusters_count;
     $('metric-feedback-msgs').textContent  = state.data.unique_feedback_messages.toLocaleString('ar-SA');
 
+    const badge = $('mobile-clusters-badge');
+    if (badge) badge.textContent = state.data.clusters_count;
+
     if (state.data.clusters?.length) state.activeId = state.data.clusters[0].cluster_id;
+
+    setMobileView('clusters');
 
     renderSidebar();
     renderDetail();
@@ -140,14 +162,18 @@ function renderSidebar() {
   el.querySelectorAll('.cluster-card').forEach(card => {
     card.addEventListener('click', () => {
       const id = card.dataset.id;
-      if (id === state.activeId) return;
-      state.activeId = id;
-      state.page = 1;
-      state.streamSearch = '';
-      $('stream-filter-input').value = '';
-      el.querySelectorAll('.cluster-card').forEach(c => c.classList.remove('active'));
-      card.classList.add('active');
-      renderDetail();
+      if (id !== state.activeId) {
+        state.activeId = id;
+        state.page = 1;
+        state.streamSearch = '';
+        $('stream-filter-input').value = '';
+        el.querySelectorAll('.cluster-card').forEach(c => c.classList.remove('active'));
+        card.classList.add('active');
+        renderDetail();
+      }
+      if (window.innerWidth <= 900) {
+        setMobileView('detail');
+      }
     });
   });
 }
@@ -377,6 +403,9 @@ async function lookupById() {
       state.page = 1;
       renderSidebar();
       renderDetail();
+      if (window.innerWidth <= 900) {
+        setMobileView('detail');
+      }
       setTimeout(() => {
         const el = $(`msg-${msg.id}`);
         if (el) { el.scrollIntoView({ behavior:'smooth', block:'center' }); }
@@ -388,6 +417,11 @@ async function lookupById() {
 // ── Events ───────────────────────────────────────────────────
 
 function bindEvents() {
+  // Mobile View Navigation
+  $('btn-view-clusters')?.addEventListener('click', () => setMobileView('clusters'));
+  $('btn-view-detail')?.addEventListener('click', () => setMobileView('detail'));
+  $('mobile-back-btn')?.addEventListener('click', () => setMobileView('clusters'));
+
   // Severity filter
   $('severity-filter').addEventListener('click', e => {
     const btn = e.target.closest('.stab');
