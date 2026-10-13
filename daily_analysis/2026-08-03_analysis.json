@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-03",
+  "total_messages": 686,
+  "telegram_messages": 645,
+  "whatsapp_messages": 41,
+  "relevant_messages_count": 82,
+  "sentiment_breakdown": {
+    "negative": 24,
+    "positive": 18,
+    "neutral_inquiry": 40
+  },
+  "categories": {
+    "housing_admission_application": {
+      "count": 42,
+      "summary": "استفسارات حول رسوم السكن (1320 ريال بالإضافة إلى 250 تأمين)، إمكانية التقسيط، خصم الضمان الاجتماعي (50%)، وموعد فتح التسجيل والحجز المتوقع قبل بدء الدراسة بأسبوع."
+    },
+    "excellence_track": {
+      "count": 14,
+      "summary": "تساؤلات المقبولين في الطب والجراحة ومسار التميز حول كيفية إرسال روابط ونماذج الفورمز المخصصة للتسكين والأولوية."
+    },
+    "housing_lifestyle_and_rules": {
+      "count": 16,
+      "summary": "نقاشات ومزاح حول تجهيز الغرف بالأجهزة (ميكروويف، دافور، غلاية)، التفتيش الدوري، إشغال غرف زملاء آخرين، ومقاسات المراتب والأثاث."
+    },
+    "gym_and_orientation": {
+      "count": 10,
+      "summary": "شكاوى في مجموعات الواتساب من عدم صلاحية أجهزة نادي الجامعة وسوء صيانتها، في مقابل تساؤلات المستجدين عن تنظيم الأسبوع التعريفي واختبارات تحديد المستوى."
+    }
+  },
+  "positive_notes_and_resolutions": [
+    "توضيح المشرفين والطلاب القدامى لآلية التقديم وتجهيز المستندات المطلوبة (العنوان والشهادة) وشرح تفاصيل خصم الضمان للرسوم",
+    "تزويد الطلاب بروابط تفصيلية لشرح الأسبوع التعريفي ونظام مستويات اللغة الإنجليزية لتخفيف قلق المستجدين"
+  ],
+  "sample_messages": [
+    {
+      "source": "tg",
+      "id": 437657,
+      "time": "2026-08-03T00:29:48",
+      "text": "تقدر تسوي اللي تبغى بغرفتك هذي مساحتك الشخصية بس جيرانك لا يتضايقون منك حفاظا على حقوقهم",
+      "category": "housing_lifestyle_and_rules",
+      "sentiment": "positive"
+    },
+    {
+      "source": "tg",
+      "id": 437965,
+      "time": "2026-08-03T14:14:57",
+      "text": "1320 والتامين 250",
+      "category": "housing_admission_application",
+      "sentiment": "neutral_inquiry"
+    },
+    {
+      "source": "tg",
+      "id": 437975,
+      "time": "2026-08-03T14:37:43",
+      "text": "مافيه تقسيط للجدد بالسكن ماعندي المبلغ كامل كيف السواه؟",
+      "category": "housing_admission_application",
+      "sentiment": "negative"
+    },
+    {
+      "source": "tg",
+      "id": 437995,
+      "time": "2026-08-03T14:54:52",
+      "text": "اي خصم نص الرسوم",
+      "category": "housing_admission_application",
+      "sentiment": "positive"
+    },
+    {
+      "source": "wa",
+      "id": 42399,
+      "time": "2026-08-03T22:52:00",
+      "text": "اكيد مافي احد يستخدمها هو فيه الآلة قابل الاستخدام بالاصل",
+      "category": "gym_and_orientation",
+      "sentiment": "negative"
+    }
+  ]
+}

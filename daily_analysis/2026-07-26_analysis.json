@@ -1,0 +1,76 @@
+{
+  "date": "2026-07-26",
+  "total_messages": 359,
+  "telegram_messages": 308,
+  "whatsapp_messages": 51,
+  "relevant_messages_count": 62,
+  "sentiment_breakdown": {
+    "negative": 20,
+    "positive": 14,
+    "neutral_inquiry": 28
+  },
+  "categories": {
+    "external_rent_and_metro": {
+      "count": 22,
+      "summary": "مقارنة أسعار إيجار الاستديوهات والشقق الخارجية في أحياء شمال الرياض (مثل المرسلات بـ 1800 شهرياً والازدهار بـ 27 ألف سنوياً) وتفضيل السكن بالقرب من محطات المترو كبديل اقتصادي وسريع للوصول إلى الحرم الجامعي."
+    },
+    "housing_admission_application": {
+      "count": 20,
+      "summary": "استفسارات حول متطلبات التقديم بالسكن (رفع الشهادة الثانوية والعنوان الوطني)، موعد إرسال الأرقام الجامعية، ومواعيد إغلاق بقالة السكن ومسموحات المبخرة الإلكترونية."
+    },
+    "social_life_and_traffic": {
+      "count": 12,
+      "summary": "دردشات طلابية في الواتساب حول الملل في السكن خلال الإجازة الصيفية، الخروج للتنزه في يو ووك، انقطاع المكافأة وتأخرها، واستفسار حول تشغيل كاميرات ساهر عند ملعب الجامعة الأول بارك."
+    },
+    "cooking_and_food": {
+      "count": 8,
+      "summary": "تساؤلات حول طبيعة تجهيز الوجبات السريعة (بيض وبرجر) وإرشادات السلامة في السكن."
+    }
+  },
+  "positive_notes_and_resolutions": [
+    "تفاعل الطلاب في تقديم نصائح اختيار الشقق الخارجية القريبة من شبكة المترو لتفادي الزحام في حال عدم الحصول على سكن جامعي",
+    "روح الأخوة والتعارف بين الطلاب المقيمين بالسكن للتخفيف من وحشة الإجازة الصيفية"
+  ],
+  "sample_messages": [
+    {
+      "source": "tg",
+      "id": 433707,
+      "time": "2026-07-26T00:06:18",
+      "text": "استاجر قريب من المحطه حتى لو ٥ دقايق وبسعر معقول",
+      "category": "external_rent_and_metro",
+      "sentiment": "positive"
+    },
+    {
+      "source": "tg",
+      "id": 433726,
+      "time": "2026-07-26T01:27:55",
+      "text": "يشباب انا آخذ ف المرسلات ب 1800 شهري 22 سنوي هل ممكن الاقي شي افضل ولا اقعد زي م انا لو م لقيت سكن؟",
+      "category": "external_rent_and_metro",
+      "sentiment": "neutral_inquiry"
+    },
+    {
+      "source": "tg",
+      "id": 434011,
+      "time": "2026-07-26T20:25:44",
+      "text": "شهادة الثانوي ترفعها",
+      "category": "housing_admission_application",
+      "sentiment": "positive"
+    },
+    {
+      "source": "wa",
+      "id": 41864,
+      "time": "2026-07-26T23:25:00",
+      "text": "شباب كاميرا ساهر الي عند الملعب اشتغلت ؟",
+      "category": "social_life_and_traffic",
+      "sentiment": "neutral_inquiry"
+    },
+    {
+      "source": "tg",
+      "id": 434029,
+      "time": "2026-07-26T22:38:16",
+      "text": "متى يرسلون الرقم الجامعي؟",
+      "category": "housing_admission_application",
+      "sentiment": "neutral_inquiry"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ResidentEcho — تحليل مجتمع السكن الطلابي • سبتمبر 2026</title>
+  <meta name="description" content="لوحة تحليل بيانات مجتمع السكن الطلابي بجامعة الملك سعود — عناقيد المشكلات والرسائل الفعلية لشهر سبتمبر 2026">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-logo">RE</div>
+        <div class="brand-info">
+          <span class="brand-name">ResidentEcho</span>
+          <span class="brand-period">سبتمبر 2026</span>
+        </div>
+      </div>
+      <div class="header-stats">
+        <div class="stat-chip">
+          <span class="stat-val" id="metric-total-msgs">26,765</span>
+          <span class="stat-lbl">رسالة</span>
+        </div>
+        <div class="stat-chip">
+          <span class="stat-val accent" id="metric-total-clusters">9</span>
+          <span class="stat-lbl">مشكلة محورية</span>
+        </div>
+        <div class="stat-chip">
+          <span class="stat-val" id="metric-feedback-msgs">7,613</span>
+          <span class="stat-lbl">رسالة تغذية راجعة</span>
+        </div>
+      </div>
+      <div class="header-lookup">
+        <input type="number" id="quick-id-input" placeholder="رقم الرسالة..." title="البحث برقم ID">
+        <button id="quick-id-btn" title="بحث"><i class="fa-solid fa-search"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-top">
+        <div class="sidebar-search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="global-search-input" placeholder="بحث في المشكلات...">
+          <button id="clear-search-btn" class="clear-btn hidden"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="severity-tabs" id="severity-filter">
+          <button class="stab active" data-severity="all">الكل</button>
+          <button class="stab" data-severity="critical"><span class="dot critical"></span> حرج</button>
+          <button class="stab" data-severity="high"><span class="dot high"></span> مرتفع</button>
+          <button class="stab" data-severity="medium"><span class="dot medium"></span> متوسط</button>
+        </div>
+      </div>
+      <div class="cluster-list" id="clusters-list">
+        <div class="loading-msg"><div class="spinner"></div><span>جاري التحميل...</span></div>
+      </div>
+    </aside>
+
+    <main class="main-panel">
+      <div id="cluster-detail"></div>
+      <div class="feed-section" id="feed-section">
+        <div class="feed-header">
+          <div class="feed-title">
+            <i class="fa-regular fa-comments"></i>
+            <span>رسائل العنقود</span>
+            <span class="feed-count" id="visible-msgs-count">—</span>
+          </div>
+          <div class="feed-controls">
+            <div class="platform-tabs" id="platform-filter">
+              <button class="ptab active" data-platform="all">الكل</button>
+              <button class="ptab" data-platform="tg"><i class="fa-brands fa-telegram"></i></button>
+              <button class="ptab" data-platform="wa"><i class="fa-brands fa-whatsapp"></i></button>
+            </div>
+            <div class="feed-search">
+              <input type="text" id="stream-filter-input" placeholder="تصفية الرسائل...">
+            </div>
+            <select id="stream-sort-select" class="sort-select">
+              <option value="asc">الأقدم أولاً</option>
+              <option value="desc">الأحدث أولاً</option>
+              <option value="length">الأطول أولاً</option>
+            </select>
+          </div>
+        </div>
+        <div class="messages-list" id="chat-bubbles-stream"></div>
+        <div class="feed-footer" id="stream-footer" style="display:none;">
+          <button id="load-more-btn" class="load-more-btn">
+            <i class="fa-solid fa-chevron-down"></i> عرض المزيد
+          </button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <div class="modal-backdrop hidden" id="message-modal">
+    <div class="modal-box">
+      <div class="modal-head">
+        <span>تفاصيل الرسالة</span>
+        <button id="modal-close-btn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <div class="toast hidden" id="toast-notify">
+    <i class="fa-solid fa-check"></i>
+    <span id="toast-text"></span>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

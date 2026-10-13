@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-05",
+  "total_messages": 444,
+  "telegram_messages": 418,
+  "whatsapp_messages": 26,
+  "relevant_messages_count": 68,
+  "sentiment_breakdown": {
+    "negative": 20,
+    "positive": 14,
+    "neutral_inquiry": 34
+  },
+  "categories": {
+    "housing_admission_application": {
+      "count": 38,
+      "summary": "ترقب وقلق واسع بين الطلاب المقبولين حديثاً لعدم إرسال الأرقام الجامعية وموعد فتح بوابة السكن، واستفسارات عن متطلبات الملف المدمج (الشهادة الثانوية والعنوان الوطني وإشعار القبول ومستندات الضمان لمنح خصم 50%) وآلية حجز الغرفة بعد فتح البوابة وسداد الرسوم خلال 24 ساعة."
+    },
+    "excellence_track": {
+      "count": 10,
+      "summary": "نقاشات حول أولوية طلاب مسار التميز المذكورة في دليل القبول، وكيفية إثبات القبول بمسار التميز ضمن ملف التقديم."
+    },
+    "housing_guidance_lifestyle": {
+      "count": 12,
+      "summary": "تساؤلات المستجدين حول بيئة السكن، أعداد الزملاء بالجناح (5 إلى 7 طلاب)، جلب الغلايات والأجهزة، ومجانية الصالة الرياضية."
+    },
+    "external_rent_and_rehabilitation": {
+      "count": 8,
+      "summary": "شكاوى من ارتفاع أسعار الشقق ونصب المكاتب العقارية خارج الجامعة، وتأكيدات بوجود أعمال صيانة وإعادة تأهيل للأجهزة داخل السكن."
+    }
+  },
+  "positive_notes_and_resolutions": [
+    "تفاعل الطلاب أصحاب الخبرة في توضيح متطلبات التقديم وتجهيز ملف الـ PDF مسبقاً تفادياً لضياع الفرص فور فتح البوابة",
+    "تأكيد مجانية النادي الرياضي للساكنين ووجود خصم 50% لمستفيدي الضمان الاجتماعي"
+  ],
+  "sample_messages": [
+    {
+      "source": "tg",
+      "id": 439143,
+      "time": "2026-08-05T00:03:43",
+      "text": "يعيال ابي اسكن في سكن جامعي وش الخطوات الي اسويها ؟",
+      "category": "housing_admission_application",
+      "sentiment": "neutral_inquiry"
+    },
+    {
+      "source": "tg",
+      "id": 439159,
+      "time": "2026-08-05T00:53:08",
+      "text": "ياعيال ماتعرفون شقق للإيجار رحت لأربع مكاتب وكلهم نصابين",
+      "category": "external_rent_and_rehabilitation",
+      "sentiment": "negative"
+    },
+    {
+      "source": "tg",
+      "id": 439541,
+      "time": "2026-08-05T17:39:35",
+      "text": "إذا أنت من مستفيدي الضمان ترفق لهم شي يثبت ويعطونك السكن بنصف السعر",
+      "category": "housing_admission_application",
+      "sentiment": "positive"
+    },
+    {
+      "source": "tg",
+      "id": 439641,
+      "time": "2026-08-05T21:49:47",
+      "text": "إذا فتح الموقع على طول مباشرة تحجز الغرفة بعد إرفاق المرفقات أو تأخذ وقت كيف الوضع ؟",
+      "category": "housing_admission_application",
+      "sentiment": "neutral_inquiry"
+    },
+    {
+      "source": "tg",
+      "id": 439661,
+      "time": "2026-08-05T23:49:04",
+      "text": "شهادة ثانوية + عنوان وطني بملف PDF واحد واذا كنت طالب مقبول بتخصص لطلاب متميزين حطها بالملف تجيك اولويه",
+      "category": "housing_admission_application",
+      "sentiment": "positive"
+    }
+  ]
+}

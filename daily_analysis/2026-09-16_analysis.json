@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-16",
+  "total_messages": 980,
+  "negative_issues_count": 8,
+  "positive_resolutions_count": 2,
+  "neutral_or_info_count": 970,
+  "issues_and_complaints": [
+    {
+      "msg_id": "2026-09-16_001",
+      "source": "telegram",
+      "user_id": "USER_TELEGRAM_2142",
+      "building": "General",
+      "category": "خدمات الغسيل والمغسلة",
+      "text": "تكرار إتلاف واصفرار الملابس وثياب الطلاب في مغسلة السكن ووصف الغسيل بالإهمال وانعدام النظافة.",
+      "sentiment": "negative"
+    },
+    {
+      "msg_id": "2026-09-16_002",
+      "source": "whatsapp",
+      "user_id": "USER_WHATSAPP_0808",
+      "building": "General",
+      "category": "الصالات والمرافق الترفيهية والرياضية",
+      "text": "سوء حالة نادي السكن الرياضي وتعطل الأجهزة وسرقة معظم أوزان الدنابل والحديد، وانبعاث روائح خانقة.",
+      "sentiment": "negative"
+    },
+    {
+      "msg_id": "2026-09-16_003",
+      "source": "telegram",
+      "user_id": "USER_TELEGRAM_2170",
+      "building": "General",
+      "category": "التغذية والمطاعم",
+      "text": "تشدد مطعم السكن ومنع الطلاب من تغطية أكواب القهوة والمشروبات لحرمانهم من أخذها سفري خارج الصالة.",
+      "sentiment": "negative"
+    },
+    {
+      "msg_id": "2026-09-16_004",
+      "source": "telegram",
+      "user_id": "USER_TELEGRAM_2001",
+      "building": "General",
+      "category": "المرافق العامة والصيانة",
+      "text": "نزول مياه صفراء وملوثة من صنابير دورات مياه الجامع داخل السكن.",
+      "sentiment": "negative"
+    },
+    {
+      "msg_id": "2026-09-16_005",
+      "source": "telegram",
+      "user_id": "USER_TELEGRAM_1485",
+      "building": "General",
+      "category": "المرافق العامة والصيانة",
+      "text": "دخول غبار وأتربة كثيفة لغرف الطلاب من خلال فتحات التكييف المركزي دون تنظيف الفلاتر.",
+      "sentiment": "negative"
+    },
+    {
+      "msg_id": "2026-09-16_006",
+      "source": "whatsapp",
+      "user_id": "USER_WHATSAPP_0474",
+      "building": "General",
+      "category": "الأمن والسلامة والخصوصية",
+      "text": "دخول أشخاص مجهولين وطرق أبواب الغرف وطلب تصوير البطاقات الجامعية للطلاب دون إبراز هوية الإشراف الرسمي.",
+      "sentiment": "negative"
+    },
+    {
+      "msg_id": "2026-09-16_007",
+      "source": "telegram",
+      "user_id": "USER_TELEGRAM_1534",
+      "building": "General",
+      "category": "المرافق العامة والصيانة",
+      "text": "استمرار تدفق المياه الحارة فقط في الشاور وانعدام المياه الباردة نهاراً وليلاً.",
+      "sentiment": "negative"
+    },
+    {
+      "msg_id": "2026-09-16_008",
+      "source": "telegram",
+      "user_id": "USER_TELEGRAM_2549",
+      "building": "General",
+      "category": "المرافق العامة والصيانة",
+      "text": "تأخر استجابة طوارئ الصيانة بعد فتح البلاغ لأكثر من 4 ساعات دون حضور الفنيين.",
+      "sentiment": "negative"
+    }
+  ],
+  "positive_and_resolutions": [
+    {
+      "msg_id": "2026-09-16_009",
+      "source": "whatsapp",
+      "user_id": "USER_WHATSAPP_0900",
+      "building": "General",
+      "category": "الأنشطة والقيادة الطلابية",
+      "text": "فتح باب الترشح لرواد المباني ومشرفي الصالات بالإسكان الطلابي لتمثيل زملائهم وتنظيم الأنشطة بمكافآت رسمية.",
+      "sentiment": "positive"
+    },
+    {
+      "msg_id": "2026-09-16_010",
+      "source": "whatsapp",
+      "user_id": "USER_WHATSAPP_0909",
+      "building": "General",
+      "category": "التغذية والمطاعم",
+      "text": "متابعة تصعيد شكاوى الطلاب بشأن إعادة الساندويشات وتحسين جودة الطعام للمدير التنفيذي لمتعهد التغذية.",
+      "sentiment": "positive"
+    }
+  ],
+  "daily_summary": "تركزت نقاشات وشكاوى الطلاب حول سوء نظافة ملابس المغسلة واصفرارها، وتردي صالة الحديد وسرقة الأوزان، وتضييق مطعم السكن على الطلاب بمنع تغطية القهوة، ومياه الجامع الصفراء، وغبار التكييف. في المقابل، فُتح باب الترشح لرواد المباني بالإسكان الطلابي، وتم رفع شكوى لإدارة متعهد التغذية بشأن قوائم الطعام والساندويشات."
+}

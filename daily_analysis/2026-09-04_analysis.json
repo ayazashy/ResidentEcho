@@ -1,0 +1,151 @@
+{
+  "date": "2026-09-04",
+  "total_messages": 1054,
+  "relevant_messages_count": 39,
+  "categories_summary": {
+    "food_services": 14,
+    "housing_maintenance": 11,
+    "housing_services": 6,
+    "wifi_network": 4,
+    "sports_entertainment": 4
+  },
+  "issues_and_complaints": [
+    {
+      "id": 511857,
+      "source": "tg",
+      "user_id": 1000001556,
+      "category": "housing_maintenance",
+      "sentiment": "negative",
+      "text": "سوء نظافة دورات المياه المشتركة في الجناح، ترك الشطاف على الأرض وعدم سحب السيفون مما يسبب روائح وقذارة.",
+      "notes": "مشاكل النظافة في الأجنحة المشتركة"
+    },
+    {
+      "id": 511935,
+      "source": "tg",
+      "user_id": 1000003345,
+      "category": "housing_maintenance",
+      "sentiment": "negative",
+      "text": "تكييف الغرفة صوته عالي جداً كالمدرعات دون تبريد فعلي.",
+      "notes": "أعطال التكييف المركزي وإزعاجه"
+    },
+    {
+      "id": 47191,
+      "source": "wa",
+      "user_id": 2000000848,
+      "category": "housing_services",
+      "sentiment": "negative",
+      "text": "إغلاق بقالة السكن في صباح يوم الجمعة حتى بعد الصلاة مما يربك احتياجات الطلاب الصباحية.",
+      "notes": "أوقات عمل البقالة في الويكند"
+    },
+    {
+      "id": 47197,
+      "source": "wa",
+      "user_id": 2000000563,
+      "category": "housing_maintenance",
+      "sentiment": "negative",
+      "text": "عطل بطاقات الأبواب الإلكترونية ونفاد بطاريات الأقفال مما يحتجز الطلاب خارج غرفهم.",
+      "notes": "خلل مستمر في أقفال الأبواب الإلكترونية وبطارياتها"
+    },
+    {
+      "id": 512244,
+      "source": "tg",
+      "user_id": 1000003009,
+      "category": "sports_entertainment",
+      "sentiment": "negative",
+      "text": "نادي السكن الرياضي سيء جداً وكارثي وتجهيزاته متهالكة.",
+      "notes": "تردي تجهيزات الصالة الرياضية بالسكن"
+    },
+    {
+      "id": 512289,
+      "source": "tg",
+      "user_id": 1000000984,
+      "category": "housing_maintenance",
+      "sentiment": "negative",
+      "text": "وجود طاولات وثلاجات خربانة في الغرف والتساؤل عن المسؤول عن استبدالها.",
+      "notes": "أزمة تلف أثاث وثلاجات الغرف"
+    },
+    {
+      "id": 512323,
+      "source": "tg",
+      "user_id": 1000000513,
+      "category": "housing_maintenance",
+      "sentiment": "negative",
+      "text": "انتشار النمل والحشرات داخل الغرف في السكن والحاجة لفرق رش ومكافحة.",
+      "notes": "مكافحة الحشرات في غرف الطلاب"
+    },
+    {
+      "id": 47239,
+      "source": "wa",
+      "user_id": 2000000256,
+      "category": "housing_services",
+      "sentiment": "negative",
+      "text": "التدخين داخل الغرف وانتشار روائح الدخان الخانقة في كامل ممرات الجناح ورفع شكوى للإدارة.",
+      "notes": "مخالفات التدخين وإزعاج الساكنين"
+    },
+    {
+      "id": 512694,
+      "source": "tg",
+      "user_id": 1000001279,
+      "category": "housing_services",
+      "sentiment": "negative",
+      "text": "مواقف السيارات حول مبنى 16 ومبنى 6 شاغرة وفارغة ومع ذلك يتعرض الطلاب للكلبشة الفورية والغرامات عند الوقوف بها.",
+      "notes": "أزمة تنظيم المواقف والكلبشات"
+    },
+    {
+      "id": 512788,
+      "source": "tg",
+      "user_id": 1000002765,
+      "category": "wifi_network",
+      "sentiment": "negative",
+      "text": "انقطاع الإنترنت تماماً عند محاولة تشغيل برامج VPN لتجاوز حجب الألعاب والخدمات على شبكة السكن.",
+      "notes": "حظر تقنيات الـ VPN على شبكة السكن"
+    },
+    {
+      "id": 47262,
+      "source": "wa",
+      "user_id": 2000000306,
+      "category": "sports_entertainment",
+      "sentiment": "negative",
+      "text": "الصالة الترفيهية بالسكن وطاولات البلياردو في حالة يرثى لها وتجهيزاتها خربانة.",
+      "notes": "إهمال الصالة الترفيهية"
+    }
+  ],
+  "positive_and_resolutions": [
+    {
+      "id": 512149,
+      "source": "tg",
+      "user_id": 1000000036,
+      "category": "food_services",
+      "sentiment": "positive",
+      "text": "إعلان ممثل الطلاب فتح عمو عماد مع بداية الأسبوع، ودخول مستثمر جديد لموقع ملتقى الجود، والتجهيز لتوفير 3 إلى 4 مطاعم وبوفيات ثابتة.",
+      "notes": "جهود لحل أزمة المطاعم"
+    },
+    {
+      "id": 47171,
+      "source": "wa",
+      "user_id": 2000000648,
+      "category": "housing_services",
+      "sentiment": "positive",
+      "text": "توضيح أن المواقف المظللة خارج سور السكن مجانية ومتاحة دون رسوم إضافية.",
+      "notes": "خيارات مواقف مجانية للطلاب"
+    },
+    {
+      "id": 512520,
+      "source": "tg",
+      "user_id": 1000002573,
+      "category": "housing_maintenance",
+      "sentiment": "positive",
+      "text": "مبادرة طالبية لتحسين إضاءة الغرف وتغيير لمبات السقف إلى إضاءة دافئة (3000k) عبر متجر الفزعة الداخلي بأسعار رمزية (25 ريال).",
+      "notes": "حلول ذاتية لتحسين بيئة الغرف المظلمة أو المزعجة"
+    },
+    {
+      "id": 512414,
+      "source": "tg",
+      "user_id": 1000002573,
+      "category": "food_services",
+      "sentiment": "positive",
+      "text": "الإشادة بجدوى الاشتراك في مطعم الطلاب المركزي لتوفير الميزانية حيث تبلغ الوجبة 6.5 ريال فقط.",
+      "notes": "بديل اقتصادي فعال للطلاب وسط غلاء أسعار التوصيل"
+    }
+  ]
+}

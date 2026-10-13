@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-02",
+  "total_messages": 377,
+  "telegram_messages": 356,
+  "whatsapp_messages": 21,
+  "relevant_messages_count": 64,
+  "sentiment_breakdown": {
+    "negative": 22,
+    "positive": 14,
+    "neutral_inquiry": 28
+  },
+  "categories": {
+    "housing_network_and_blocking": {
+      "count": 26,
+      "summary": "نقاشات موسعة حول شبكة الإنترنت في السكن؛ استياء من حجب منصات وتطبيقات ألعاب الأونلاين (مثل شبكات PlayStation وبعض سيرفرات الألعاب)، ومحاولات الطلاب استخدام برامج VPN وحلول كيبل الإيثرنت وتأثيرها على سرعة البنق، وتفضيل شراء شرائح وباقات نت مستقلة."
+    },
+    "housing_admission_application": {
+      "count": 22,
+      "summary": "تساؤلات مستمرة حول موعد فتح بوابة السكن للمستجدين (المتوقع قبل بدء الدراسة بأسبوع)، وسرعة صدور الموافقة، وما إذا كان اختيار المباني والغرف متاحاً للطالب أم يتم تعيينه تلقائياً من قبل الإدارة."
+    },
+    "excellence_track": {
+      "count": 8,
+      "summary": "تأكيد أولوية التسكين للطلاب المقبولين في مسار التميز وتخصصات الطب والمسارات ذات المعدلات المرتفعة."
+    },
+    "facilities_and_services": {
+      "count": 8,
+      "summary": "استفسارات حول أرقام وقنوات توصيل مغاسل الملابس الخارجية المعتمدة لخدمة طلاب السكن، وتجهيزات المطبخ ومسموحات الأجهزة مثل القلايات الهوائية."
+    }
+  },
+  "positive_notes_and_resolutions": [
+    "مشاركة روابط قروبات واتساب لمغاسل التوصيل السريع لتسهيل غسيل ملابس الطلاب",
+    "تقديم شروحات وحلول تقنية لكيفية التعامل مع شبكة السكن واستخدام كابلات الإيثرنت لرفع كفاءة الاتصال"
+  ],
+  "sample_messages": [
+    {
+      "source": "tg",
+      "id": 437253,
+      "time": "2026-08-02T00:39:00",
+      "text": "كويس بس ان الألعاب وكذا محجوبه",
+      "category": "housing_network_and_blocking",
+      "sentiment": "negative"
+    },
+    {
+      "source": "tg",
+      "id": 437266,
+      "time": "2026-08-02T01:48:17",
+      "text": "طيب العاب الاونلاين وش الحل بنقي يصير مليون",
+      "category": "housing_network_and_blocking",
+      "sentiment": "negative"
+    },
+    {
+      "source": "tg",
+      "id": 437581,
+      "time": "2026-08-02T22:05:37",
+      "text": "اي واحد تخصصه من تخصصات المتميزين عنده اولوية في قبول السكن",
+      "category": "excellence_track",
+      "sentiment": "positive"
+    },
+    {
+      "source": "tg",
+      "id": 437589,
+      "time": "2026-08-02T22:26:17",
+      "text": "اللي اعرفه فيه مغسلتين توصيل وهذي قروبات الواتس",
+      "category": "facilities_and_services",
+      "sentiment": "positive"
+    },
+    {
+      "source": "tg",
+      "id": 437626,
+      "time": "2026-08-02T23:32:25",
+      "text": "غالبا قبل الدراسة باسبوع ومايطولون بالموافقة",
+      "category": "housing_admission_application",
+      "sentiment": "neutral_inquiry"
+    }
+  ]
+}

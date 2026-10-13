@@ -1,0 +1,76 @@
+{
+  "date": "2026-07-24",
+  "total_messages": 439,
+  "telegram_messages": 416,
+  "whatsapp_messages": 23,
+  "relevant_messages_count": 82,
+  "sentiment_breakdown": {
+    "negative": 24,
+    "positive": 20,
+    "neutral_inquiry": 38
+  },
+  "categories": {
+    "housing_admission_application": {
+      "count": 34,
+      "summary": "استفسارات المستجدين حول موعد فتح السكن وسرعة إغلاق البوابة (خلال دقيقتين)، تجهيز المستندات المطلوبة، وضع عقود الصيفي وظهور حالة 'منتهي' بالنظام رغم سريان التجديد للترم الأول."
+    },
+    "housing_lifestyle_and_facilities": {
+      "count": 20,
+      "summary": "تساؤلات الطلاب الجدد حول خصوصية دورات المياه والاستحمام المشتركة بالجناح، نظافة الغرف وطلب شركات تنظيف خاصة قبل السكن، وتقييم جودة وتكلفة مطعم السكن الجامعي ومتابعة استبيان وجبات المطعم."
+    },
+    "engineering_specializations_debate": {
+      "count": 20,
+      "summary": "نقاش أكاديمي موسع بين طلاب كلية الهندسة حول تخصصات هندسة البترول (تصنيفها العالمي ومقاعدها الـ40 وفرص التوظيف) والهندسة الكيميائية والميكانيكية والمدنية، وضبابية شروط التحويل للدفعة الجديدة."
+    },
+    "prep_year_and_academics": {
+      "count": 8,
+      "summary": "توضيح أهمية اختبارات اللغة الإنجليزية بالتحضيري وإعفاء PTE/IELTS للحصول على A+ وتسهيل التميز الأكاديمي."
+    }
+  },
+  "positive_notes_and_resolutions": [
+    "تطمين الطلاب بأن حالة العقد 'منتهي' على بوابة الإسكان طبيعية خلال فترة الصيف وتتحدث تلقائياً مع بداية الفصل الدراسي",
+    "إشادة الطلاب القدامى برقابة إدارة الإسكان على أسعار وجودة وجبات المطعم الجامعي"
+  ],
+  "sample_messages": [
+    {
+      "source": "tg",
+      "id": 432575,
+      "time": "2026-07-24T00:33:52",
+      "text": "يعني امشي بفوطتي الى الغرفه مستحيل؟ البس فالحمام يرجال بسيطه",
+      "category": "housing_lifestyle_and_facilities",
+      "sentiment": "neutral_inquiry"
+    },
+    {
+      "source": "tg",
+      "id": 432871,
+      "time": "2026-07-24T17:46:15",
+      "text": "يُعتمد عليه، ومراقب من الادارة لكن نطمح للتحسين بالمستقبل باذن الله تعالى",
+      "category": "housing_lifestyle_and_facilities",
+      "sentiment": "positive"
+    },
+    {
+      "source": "wa",
+      "id": 41701,
+      "time": "2026-07-24T19:06:00",
+      "text": "عادي ما عليك هو كذا ظاهر لك انه منتهي في الصيف لكن إذا بدأ الترم بيظهر لك مجدد",
+      "category": "housing_admission_application",
+      "sentiment": "positive"
+    },
+    {
+      "source": "wa",
+      "id": 41709,
+      "time": "2026-07-24T20:28:00",
+      "text": "وش المستندات المطلوب اني ارفعها وقت التسجيل وهل يمديني اسجل لانه بدقيقتين يقفل",
+      "category": "housing_admission_application",
+      "sentiment": "neutral_inquiry"
+    },
+    {
+      "source": "tg",
+      "id": 432980,
+      "time": "2026-07-24T23:17:58",
+      "text": "تخصص البترول تصنيفه 33 عالعالم والفرص فيه عالية الخريجين كلهم متوظفين بارامكو والبقية بشركات السيرفس فالوضع مطمئن",
+      "category": "engineering_specializations_debate",
+      "sentiment": "positive"
+    }
+  ]
+}

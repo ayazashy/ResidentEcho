@@ -1,0 +1,71 @@
+{
+  "date": "2026-08-09",
+  "total_messages": 725,
+  "sources": {
+    "tg": 643,
+    "wa": 82
+  },
+  "relevant_messages_count": 82,
+  "sentiment_breakdown": {
+    "negative_frustration": 28,
+    "inquiry_anxiety": 46,
+    "positive_gratitude": 5,
+    "neutral_factual": 3
+  },
+  "categories": {
+    "housing_admission_and_selection": {
+      "count": 52,
+      "summary": "تساؤلات مستمرة وتخوف وقلق شديد من فتح بوابة السكن بشكل مفاجئ دون سابق إنذار، ومناقشة تفاصيل التقديم للمتميزين عبر رسائل SMS واستمارات خاصة مقارنة بالتقديم الاعتيادي الذي يعتمد على السرعة، واستفسارات السداد الفوري إلكترونياً خلال 24 ساعة لضمان الغرفة."
+    },
+    "room_furnishing_and_amenities": {
+      "count": 16,
+      "summary": "استفسارات حول مقاسات مراتب الأسرة وإمكانية تبديلها بمراتب خاصة، وتفاصيل المطابخ المشتركة في الأجنحة واستخدام الأفران، بالإضافة إلى مغاسل الملابس بالجامعة وتكاليفها وجودتها."
+    },
+    "documents_and_support_programs": {
+      "count": 14,
+      "summary": "شرح استخراج وثيقة الثانوية من موقع نتائجي عبر خيار (تسجيل زائر)، وخطوات استخراج إثبات أهلية الضمان الاجتماعي من تطبيق توكلنا للحصول على الدعم والتخفيض، ودعم حساب المواطن (720 ريال شهرياً)."
+    }
+  },
+  "positive_notes_and_resolutions": [
+    "حل مشكلة تعذر ظهور اسم المدرسة أو استخراج وثيقة الثانوية من نتائجي عبر الدخول كـ (زائر جديد).",
+    "توضيح طريقة استخراج شهادة إثبات أهلية الضمان الاجتماعي من تطبيق توكلنا لتقديمها في طلب تخفيض السكن."
+  ],
+  "sample_verbatim_messages": [
+    {
+      "source": "tg",
+      "id": 442423,
+      "sender_id": 1000000327,
+      "time": "2026-08-09T01:09:53",
+      "text": "ما تجي للجامعه نهائي الا فقط علشان تستلم بطاقة السكن، مجرد ما تدفع المبلغ إلكتروني خلاص الغرفه صارت لك وتقدر تروح له على طول حتى لو بعد دفع بيوم تروح وتجلس فيه الين تبدا الدرسه",
+      "sentiment": "neutral_factual",
+      "category": "housing_admission_and_selection"
+    },
+    {
+      "source": "tg",
+      "id": 442719,
+      "sender_id": 1000001295,
+      "time": "2026-08-09T12:49:46",
+      "text": "سو حساب جديد وحط زائر\nودخل المعلومات \nوسجل دخول مرة ثانية\nرح على الشهادات والنتائج\nوتحصلها",
+      "sentiment": "positive_gratitude",
+      "category": "documents_and_support_programs"
+    },
+    {
+      "source": "tg",
+      "id": 442768,
+      "sender_id": 1000001295,
+      "time": "2026-08-09T15:14:25",
+      "text": "يخوان خايف يفتح السكن بدون موعد مسبق ويروح علي\nهل قد صارت ولا لازم يحددون؟",
+      "sentiment": "inquiry_anxiety",
+      "category": "housing_admission_and_selection"
+    },
+    {
+      "source": "tg",
+      "id": 443023,
+      "sender_id": 1000001334,
+      "time": "2026-08-09T23:27:43",
+      "text": "ماننلام والله الموضوع مرعب",
+      "sentiment": "negative_frustration",
+      "category": "housing_admission_and_selection"
+    }
+  ]
+}

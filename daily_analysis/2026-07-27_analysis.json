@@ -1,0 +1,76 @@
+{
+  "date": "2026-07-27",
+  "total_messages": 589,
+  "telegram_messages": 496,
+  "whatsapp_messages": 93,
+  "relevant_messages_count": 88,
+  "sentiment_breakdown": {
+    "negative": 32,
+    "positive": 16,
+    "neutral_inquiry": 40
+  },
+  "categories": {
+    "plumbing_and_air_quality": {
+      "count": 24,
+      "summary": "شكاوى واضحة من صدأ وتلوث مياه الدش والاستحمام بالسكن الجامعي وحاجة الطلاب لتركيب فلاتر شاور، وخروج غبار من فتحات التكييف يتطلب فلاتر تنقية إضافية."
+    },
+    "housing_admission_application": {
+      "count": 36,
+      "summary": "قلق وترقب فتح بوابة التسكين ومزاح حول إمكانية الحجز المبكر، جدل حول ما إذا كان اختيار الغرفة والمبنى متاحاً عبر البوابة أو تم إلغاؤه ليصبح عشوائياً كفصل سابق، وموعد بدء السكن الفعلي قبل الدراسة."
+    },
+    "transport_and_buses": {
+      "count": 14,
+      "summary": "تساؤلات حول حافلات النقل الترددي داخل الحرم الجامعي (مجانية كل 30 إلى 45 دقيقة) ومدى التزامها بالمواعيد في أوقات الذروة."
+    },
+    "financials_and_stipends": {
+      "count": 14,
+      "summary": "ترقب إيداع المكافأة الشهرية ومكافآت التفوق الأكاديمي (معدل 4.5+ )، واستفسارات عن إمكانية تقديم مشهد الضمان لاسترداد 50% من رسوم الفصل الدراسي الأول."
+    }
+  },
+  "positive_notes_and_resolutions": [
+    "تأكيد مجانية حافلات النقل الجامعي وترددها المستمر لخدمة تنقل الطلاب بين السكن والكليات",
+    "توضيح آلية استرداد نصف رسوم السكن لمستفيدي الضمان الاجتماعي بمراجعة الإدارة وتقديم المشهد"
+  ],
+  "sample_messages": [
+    {
+      "source": "tg",
+      "id": 434041,
+      "time": "2026-07-27T00:09:10",
+      "text": "مجانيه ايه واضن كل نص ساعة يجون او 45 دقيقه الباصات",
+      "category": "transport_and_buses",
+      "sentiment": "positive"
+    },
+    {
+      "source": "wa",
+      "id": 41900,
+      "time": "2026-07-27T12:04:00",
+      "text": "الموية مصدية حقت الدش لازم فلتر والمكيف تطلع غبار تحتاج لها فلتر بعد",
+      "category": "plumbing_and_air_quality",
+      "sentiment": "negative"
+    },
+    {
+      "source": "wa",
+      "id": 41915,
+      "time": "2026-07-27T13:11:00",
+      "text": "لا غيروها ما فيه اختيار من الترم الماضي ما ييمديك",
+      "category": "housing_admission_application",
+      "sentiment": "neutral_inquiry"
+    },
+    {
+      "source": "tg",
+      "id": 434549,
+      "time": "2026-07-27T22:16:28",
+      "text": "التراكمي ٤.٥+ لمكافأة التفوق",
+      "category": "financials_and_stipends",
+      "sentiment": "positive"
+    },
+    {
+      "source": "tg",
+      "id": 434569,
+      "time": "2026-07-27T22:40:39",
+      "text": "مشهد الضمان اقدر اقدمه الحين ويسوون لي استرداد للمبلغ تبع تجديد الفصل الدراسي الاول",
+      "category": "financials_and_stipends",
+      "sentiment": "neutral_inquiry"
+    }
+  ]
+}

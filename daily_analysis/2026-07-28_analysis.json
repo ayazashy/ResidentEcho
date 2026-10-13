@@ -1,0 +1,76 @@
+{
+  "date": "2026-07-28",
+  "total_messages": 686,
+  "telegram_messages": 493,
+  "whatsapp_messages": 193,
+  "relevant_messages_count": 86,
+  "sentiment_breakdown": {
+    "negative": 28,
+    "positive": 18,
+    "neutral_inquiry": 40
+  },
+  "categories": {
+    "housing_admission_application": {
+      "count": 34,
+      "summary": "تساؤلات حول إمكانية اختيار المبنى أو تبديل الغرفة مع طالب آخر بعد القبول، ونقاشات حول عزل أبواب الغرف بشراء ربلات ومانعات الصوت والغبار من محلات التوفير ومواقع التسوق."
+    },
+    "pest_control_and_hygiene": {
+      "count": 22,
+      "summary": "مخاوف وجدل حول ظهور قوارض (فئران) في بعض المباني وقفزها من فتحات التكييف في فترات سابقة، وتساؤلات الطلاب عما إذا كانت الصيانة قد كافحتها بالكامل قبل بدء العام الدراسي الجديد."
+    },
+    "dining_and_food_options": {
+      "count": 18,
+      "summary": "مشاركة أسماء وأرقام بوفيهات ومطاعم التوصيل المعتادة لطلاب السكن (مثل بستان النخيل، عمو عماد، مطاعم البيتزا) كبدائل لوجبات المطعم الجامعي."
+    },
+    "english_prep_year": {
+      "count": 12,
+      "summary": "نقاشات موسعة حول اختبارات تحديد المستوى وإعفاء اللغة الإنجليزية للسنة الأولى المشتركة ودورات التأسيس."
+    }
+  },
+  "positive_notes_and_resolutions": [
+    "مشاركة حلول عملية لتجهيز الغرفة وعزل الصوت والغبار باستخدام ربلات الأبواب المتاحة في البقالات ومحلات التوفير",
+    "تزويد الطلاب المستجدين بدليل مطاعم وبوفيهات التوصيل السريع لخدمة الطلاب داخل الحرم السكني"
+  ],
+  "sample_messages": [
+    {
+      "source": "tg",
+      "id": 434619,
+      "time": "2026-07-28T01:55:52",
+      "text": "مطاعم توصيل للسكن (بستان النخيل، عمو عماد، مطعم البيتزا)",
+      "category": "dining_and_food_options",
+      "sentiment": "positive"
+    },
+    {
+      "source": "tg",
+      "id": 434931,
+      "time": "2026-07-28T14:55:41",
+      "text": "يعيال السكن رجعت له الفيران ؟",
+      "category": "pest_control_and_hygiene",
+      "sentiment": "negative"
+    },
+    {
+      "source": "tg",
+      "id": 434936,
+      "time": "2026-07-28T14:58:43",
+      "text": "ماجربت تشوفه ينقز من المكيف الله يستر لايرجعون مثل قبل",
+      "category": "pest_control_and_hygiene",
+      "sentiment": "negative"
+    },
+    {
+      "source": "tg",
+      "id": 434947,
+      "time": "2026-07-28T15:00:36",
+      "text": "طيب لو لقيت اقدر ابدل مع احد؟ اي عادي",
+      "category": "housing_admission_application",
+      "sentiment": "positive"
+    },
+    {
+      "source": "tg",
+      "id": 435136,
+      "time": "2026-07-28T22:41:40",
+      "text": "تحتاج ربل فتحة الباب وع الجوانب جربت مع وبدون فرق ملحوظ للعزل",
+      "category": "housing_admission_application",
+      "sentiment": "positive"
+    }
+  ]
+}

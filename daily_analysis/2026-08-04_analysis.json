@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-04",
+  "total_messages": 794,
+  "telegram_messages": 702,
+  "whatsapp_messages": 92,
+  "relevant_messages_count": 88,
+  "sentiment_breakdown": {
+    "negative": 26,
+    "positive": 16,
+    "neutral_inquiry": 46
+  },
+  "categories": {
+    "housing_admission_application": {
+      "count": 46,
+      "summary": "تساؤلات متكررة عن موعد فتح البوابة للتسكين (التوقع قبل بدء الدراسة بأسبوع)، طريقة اختيار الغرف والمباني إلكترونياً، اشتراط العنوان الوطني خارج الرياض ومشاكل خريجي مدارس الرياض الساكنين خارجها، ومخاوف تكرار أخطاء ومشاكل البوابة في الترم الماضي."
+    },
+    "orientation_week_and_academics": {
+      "count": 20,
+      "summary": "شروحات الأسبوع التعريفي (اللقاء الافتراضي واختبار تحديد المستوى عن بعد واليوم الحضوري للبطاقة الجامعية واستلام الكتب) وحجز المواعيد بالرابط."
+    },
+    "excellence_track": {
+      "count": 10,
+      "summary": "استفسارات طلاب مسار التميز حول كيفية أولوية التسكين وتوزيع الغرف وإمكانية طلب تعديل المبنى بعد القبول."
+    },
+    "housing_facilities_and_services": {
+      "count": 12,
+      "summary": "نقاشات حول مساحات الغرف المنفردة، مواعيد دوام إدارة الإسكان لمراجعة الحالات، وحجز بطاقات المواقف وحساب المواطن."
+    }
+  },
+  "positive_notes_and_resolutions": [
+    "مساعدة مستمرة من المشرفين في تزويد المستجدين بروابط الأسبوع التعريفي وشرح خطوات اختبار تحديد المستوى واستخراج البطاقة",
+    "تزويد الطلاب بجهات الاتصال المباشرة ومواعيد دوام إدارة الإسكان (من 8 صباحاً حتى 2 ظهراً) للاستفسارات الاستثنائية"
+  ],
+  "sample_messages": [
+    {
+      "source": "tg",
+      "id": 438412,
+      "time": "2026-08-04T01:42:58",
+      "text": "هذا رابط الاسبوع التعريفي فيه كل المعلومات وكل شي مفروض تسويه",
+      "category": "orientation_week_and_academics",
+      "sentiment": "positive"
+    },
+    {
+      "source": "tg",
+      "id": 438702,
+      "time": "2026-08-04T13:24:55",
+      "text": "يا تضغط بسرعه وتختار بالموقع أو إذا غيرو طريقة التسجيل هم يعطونك من عندهم",
+      "category": "housing_admission_application",
+      "sentiment": "neutral_inquiry"
+    },
+    {
+      "source": "tg",
+      "id": 439121,
+      "time": "2026-08-04T23:37:19",
+      "text": "طيب الي اذكر الترم الي راحت سوو فينا حركة وصخه كيف الترم ذا",
+      "category": "housing_admission_application",
+      "sentiment": "negative"
+    },
+    {
+      "source": "wa",
+      "id": 42488,
+      "time": "2026-08-04T23:44:00",
+      "text": "خبري يداومون من 8 الى 2",
+      "category": "housing_facilities_and_services",
+      "sentiment": "neutral_inquiry"
+    },
+    {
+      "source": "tg",
+      "id": 439134,
+      "time": "2026-08-04T23:45:46",
+      "text": "السكن يقبل طالب متخرج من الرياض بس ساكن خارج الرياض حاليا",
+      "category": "housing_admission_application",
+      "sentiment": "neutral_inquiry"
+    }
+  ]
+}
